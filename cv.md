@@ -6,7 +6,7 @@
 
 *********
 
-Based -  Zurich, Schwitzerland  
+Based -  Zurich, Switzerland    
 Nationality - Ukraine  
 
 
@@ -15,14 +15,14 @@ Nationality - Ukraine
 **E-mail:** oklyasya@ukr.net;  
 **Watsapp:** +41 79 823 41 67;  
 **Telegram:** @steka4eva;  
-**GutHub:** steka4eva  
-Linkedin  
-Behance
-
+**GutHub:** [steka4eva](https://github.com/steka4eva)  
+[Linkedin](https://www.linkedin.com/in/steka4eva/)  
+[Behance](https://www.behance.net/oklyasya1b87)  
 
 
 ## About me:
 As an enthusiastic, self-motivated, reliable, responsible, and hardworking individual, I thrive in team environments and adapt well to challenging situations. Whether as a team member or working independently, I can effectively contribute and take initiative when necessary. I work well under pressure and consistently meet strict deadlines. My work is always of high quality.
+
 
 ## Skills
 * Communication
@@ -54,6 +54,7 @@ function squareSum(numbers){
     graphic designer  
 * **Onlne School Fantasy Room, 2018**  
     Fashion illustration  
+
 
 ## Languages
 **English** - Fluent  \(practic with native speaking\)  
