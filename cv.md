@@ -45,7 +45,7 @@ function squareSum(numbers){
 
 
 ## Experience
-...in process...
+**Online freelance,** 2017- present day, Graphic designer
 
 ## Education
 * **Admiral Makarov National University of Shipbuilding** Mykolaiv, Ukraine, 2005-2010  
