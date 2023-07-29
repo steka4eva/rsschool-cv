@@ -38,7 +38,6 @@ html {
   font-size: 32px;
 }
 
-
 .nav-list {
   display: flex;
   justify-content: flex-end;
@@ -81,10 +80,6 @@ button {
   top: 50%;
   display: flex;
 }
-
-
-
-
 
 
 button:hover {
