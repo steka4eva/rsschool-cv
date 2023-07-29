@@ -1,3 +1,370 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0; 
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+.header {
+  position	: absolute;
+  color: #ffffff;
+  background: rgba(242, 120, 92, 0.7);
+  width: 1440px;
+  height: 90px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  background-position: top;
+  padding: 10px 100px 0;
+}
+
+.logo {
+  font-family: 'Magra', sans-serif;
+  font-size: 32px;
+}
+
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+  transition: .3s;
+  color: #ffffff;
+  gap: 42px;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav{
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  
+}
+
+.up {
+  background-image: url("https://github.com/steka4eva/rsschool-cv/blob/travel/garrett-parker-DlkF4-dbCOU-unsplash%201.png?raw=true");
+  background-repeat: no-repeat;
+  width: 1445px;
+  margin: 0 auto;
+  background-position: top;
+}
+
+button {
+  border-radius: 10px; 
+  background: #0D606F;
+  border: 1px solid #0D606F;
+  color: #ffffff;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 18px;
+  box-shadow:  0 0 2px #0D606F;
+  padding-right: 32px;
+  padding-left: 32px;
+  top: 50%;
+  display: flex;
+}
+
+
+
+
+
+
+button:hover {
+  background: #0C2C52;
+  opacity: 1;
+  border: 1px solid #0C2C52;
+}
+
+
+
+h1 {
+  color: #FFFFFF;
+  font-family: 'Aleo', serif;
+  font-size: 80px;
+  padding: 50px 100px 0;
+}
+
+  
+h2 {
+  color: #F2785C;
+  font-family: 'Red Hat Text', sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  color: #0D606F;
+  font-family: 'Aleo', serif;
+  font-size: 35px;
+  font-weight: normal;
+  padding: 0px 20px 0;
+}
+
+h4 {
+  color: #FFFFFF;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.recieve {
+  color: #FFFFFF;
+  font-family: 'Aleo', serif;
+  font-size: 20px;
+  font-style: italic;
+  padding: 0px 100px 0;
+}
+
+.pstep {
+  color: #0D606F;
+  font-family: 'Aleo', serif;
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 0px 20px 0;
+  letter-spacing: -0.1px;
+  line-height: 95%;
+}
+
+
+.link {
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.stories {
+  font-family: 'Aleo', serif;
+  color: #0D606F;
+  background: rgba(255, 255, 255, 0.7);
+  align-items: center;
+  
+}
+
+.tablesteps {
+  width: 1177px; 
+  height: 154px; 
+  margin: 0 auto;
+  
+}
+
+  
+.footer {
+  font-family: 'Red Hat Text', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+
+
+
+
+.bg {
+  background-image: url("https://github.com/steka4eva/rsschool-cv/blob/travel/Rectangle%2033.png?raw=true");
+  background-repeat: no-repeat;
+  width: 1442px;
+  height: 1331;
+  margin: 0 auto;
+  background-position: bottom;
+}
+
+.round {
+  border-radius: 16px; 
+  box-shadow:  0 0 4px #0D606F;
+  padding: 0px 0px 0;
+ }
+
+ .table {
+  border-collapse:collapse;
+ }
+
+
+
+
+.destinations {
+  display: flex; 
+  width: 2520px;
+  height: 1042px;
+  align-items: center;
+}
+
+.flex-form input[type="submit"] {
+  border-radius: 10px;
+  background: #0D606F;
+  border: 1px solid #0D606F;
+  font-family: 'Red Hat Text', sans-serif;
+  color: #ffffff;
+  font-size: 24px;
+  padding: 0 32px;
+  cursor: pointer;
+  width: 228px;
+  height: 59px;
+  margin: 0 auto;
+  top: 50%;
+  display: flex;
+}
+
+.flex-form input[type="submit"]:hover {
+  background: #0C2C52;
+  border: 1px solid #0C2C52;
+}
+
+.flex-form {
+  border-radius: 16px;
+  padding: 18px 18px 18px;
+  display: flex;
+  width: 892px;
+  height: 95px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 100px 30px 200px 100px;
+}
+
+
+.flex-form > * {
+  border: 0;
+  padding: 0 0 0 10px;
+  background: rgba(255, 255, 255, 0);
+  line-height: 50px;
+  font-size: 24px;
+  border-radius: 0;
+  outline: 0;
+  color: #F2785C;
+  font-family: 'Aleo', serif;
+  font-size: 24px;
+  
+}
+
+input[type="search"] {
+  flex-basis: 500px;
+}
+
+input[type="search"] {
+  flex-basis: 100%;
+}
+
+.eclipse {
+  margin: 30px 30px 30px 30px;
+  padding: 10px 10px 10px 10px;
+}
+
+
+.carousel-wrapper{
+  height:800px;
+  position:relative;
+  width:800px;
+  margin:0 auto;
+}
+
+.carousel-item{
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:25px 50px;
+  opacity:0;
+  transition: all 0.5s ease-in-out;
+}
+
+.bullet{
+  border: solid #F2785C;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+}
+
+.bullet-prev{
+  left:-30px;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%) rotate(135deg);
+}
+
+.bullet-next{
+  right:-30px;
+position:absolute;
+top:50%;
+transform:translateY(-50%) rotate(-45deg);
+}
+
+.light{
+color:white;
+}
+
+
+[id^="item"] {
+  display: none;
+  
+}
+
+.item-2{
+  background:url('https://raw.githubusercontent.com/steka4eva/rsschool-cv/35fa61376de01f41f4de3cd9250662ec859aa90e/Rectangle%2024.png');
+  
+  }
+  
+.item-1 {
+  z-index: 2;
+  opacity: 1;
+  border-radius: 16px; 
+  box-shadow:  0 0 4px #0D606F;
+  margin-bottom: 50px;
+background:url('https://raw.githubusercontent.com/steka4eva/rsschool-cv/7a06d364f322c7c38be8a326058cd1cae649a7af/Rectangle%2023.png');
+
+}
+
+.item-3{
+background:url('https://github.com/steka4eva/rsschool-cv/blob/40d7aa2c0af0518cf33e1a54c153d24ed7317cf6/Rectangle%2025.png?raw=true');
+
+}
+
+*:target ~ .item-1 {
+  opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+  opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+  z-index: 3;
+  opacity: 1;
+}
+
+=======
 header {
   .nav-list {
     display: flex;
@@ -74,3 +441,4 @@ border: 1px solid red;
 main .nav-list {
   list-style: none;
 }
+
